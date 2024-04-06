@@ -11,7 +11,6 @@ const Navbar = () => {
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/">Premier League</Link></li>
                 <li><Link href="/">La Liga</Link></li>
                 <li><Link href="/">Bundesliga</Link></li>
                 <li><Link href="/standings">Standings</Link></li>

@@ -1,0 +1,68 @@
+.matchesCard {
+    background: lightgray;
+    margin: 10px auto;
+    border-radius: 20px;
+    width: 510px;
+}
+
+.matchesCardLeftContent {
+    width: 80%;
+}
+.matchesCardLeftContent p {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.matchesCardScore {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(0,0,0,.4);
+
+}
+.MCS_Left {
+    border-radius: 0 1rem 1rem 0;
+}
+.MCS_Right{
+    border-radius: 1rem 0 0 1rem;
+}
+.matchesCardScore p {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+.matchesCardLeftContent img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.matchesCardLeft {
+    min-width: 220px;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+.matchesCardRight {
+    min-width: 220px;    
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+.matchesCardRightContent {
+    width: 80%;
+}
+.matchesCardRightContent p {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.matchesCardRightContent img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}

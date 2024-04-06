@@ -1,0 +1,7 @@
+.mainButtonContainer {
+    width: 100vw;
+    margin: 25px 0;
+}
+.mainButtonContainer div {
+    margin: 0 auto;
+}
