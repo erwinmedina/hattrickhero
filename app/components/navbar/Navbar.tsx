@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from "next/link";
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar">
         <div className="navbar-start w-10">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -14,12 +15,13 @@ const Navbar = () => {
                 <li><Link href="/">La Liga</Link></li>
                 <li><Link href="/">Bundesliga</Link></li>
                 <li><Link href="/standings">Standings</Link></li>
+                <li><Link href="/">About</Link></li>
 
             </ul>
             </div>
         </div>
         <div className="navbar-center">
-            <a className="btn btn-ghost text-xl">Hat Trick Hero</a>
+            <Link href="/" className="btn btn-ghost text-xl">Hat Trick Hero</Link>
         </div>
         {/* <div className="navbar-end">
             <button className="btn btn-ghost btn-circle">
