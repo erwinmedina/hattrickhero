@@ -11,17 +11,17 @@ const Navbar = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="/">La Liga</Link></li>
-                <li><Link href="/">Bundesliga</Link></li>
-                <li><Link href="/standings">Standings</Link></li>
+                <li><Link href="/">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League</Link></li>
+                <li><Link href="/">🇪🇸 La Liga</Link></li>
+                <li><Link href="/">🇩🇪 Bundesliga</Link></li>
+                <li><Link href="/">🇫🇷 Ligue 1</Link></li>
                 <li><Link href="/">About</Link></li>
 
             </ul>
             </div>
         </div>
         <div className="navbar-center">
-            <Link href="/" id="HTH" className="btn btn-ghost text-xl">Hat Trick Hero</Link>
+            <Link href="/" id="HTH" className="btn btn-ghost text-xl">⚽️ Hat Trick Hero</Link>
             <Link href="/matches" id="HTH" className="btn btn-ghost text-l">Matches</Link>
             <Link href="/teams" id="HTH" className="btn btn-ghost text-l">Teams</Link>
             <Link href="/standings" id="HTH" className="btn btn-ghost text-l">Standings</Link>

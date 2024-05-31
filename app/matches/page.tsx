@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar';
-import MainButtons from '../components/mainButtons/MainButtons';
 import MatchdaySelector from '../components/matchdaySelector/MatchdaySelector';
 import MatchesCard from '../components/matchesCard/MatchesCard';
 import "./page.css";

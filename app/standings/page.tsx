@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar';
-import MainButtons from '../components/mainButtons/MainButtons';
+import LeagueWinners from '../components/leagueWinners/LeagueWinners';
+import LeagueScorers from '../components/leagueScorers/LeagueScorers';
 import "./page.css";
 
 interface Position {
@@ -88,12 +89,8 @@ const StandingsPage = async () => {
                     </table>
                 </div>
                 <div className="rightHandStandings">
-                    <div className="winners">
-                        Premier League Winners Section
-                    </div>
-                    <div className="topScorers">
-                        Contains top 5-10 goalscorers for the season selected
-                    </div>
+                    <LeagueScorers/>
+                    <LeagueWinners/>
                 </div>
             </div>
         </>

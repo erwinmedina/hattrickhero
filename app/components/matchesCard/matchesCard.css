@@ -1,14 +1,22 @@
 .displayCards {
-    height: 80vh;
+    height: calc(100vh - 4rem - 81px);
+    width: 800px;
+    margin: 0 auto;
     overflow-y: auto;
 }
+#scrollbar1::-webkit-scrollbar{
+    width: 10px;
+    height: 300px;
+    overflow: auto;
+    padding: 0 10px;
+  }
 .matchesCard {
     background: lightgray;
     margin: 15px auto;
     border-radius: 20px;
     width: 700px;
     transition: 0.5s;
-    filter: drop-shadow(0px 0px 5px black)
+    filter: drop-shadow(5px 5px 5px black)
 }
 .matchesCard:hover {
     transform: scale(1.05);

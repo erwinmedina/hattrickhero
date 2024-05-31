@@ -1,0 +1,54 @@
+.winners {
+    width: 500px;
+    height: 250px;
+    background: white;
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px auto;
+    overflow-y: auto;
+    padding: 0 10px 0 10px;
+    filter: drop-shadow(5px 5px 5px black)
+}
+.winnersHeader {
+    text-align: center;
+    font-size: 15px;
+}
+
+.winnersTable {
+    height: 100%;
+}
+.winnersTable caption {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.winnerRows {
+    text-align: center;
+}
+.winnerTeam {
+    display: flex;
+    align-items: center;
+}
+.winnerCrest {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+}
+.winnerShortName {
+    width: 100%;
+}
+
+/* Webkit scrollbar styles */
+.winners::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.winners::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 0 15px 15px 0;
+}
+
+.winners::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}

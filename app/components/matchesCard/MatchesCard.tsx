@@ -37,7 +37,7 @@ interface MatchesCardProps {
 const MatchesCard: React.FC<MatchesCardProps> = ({ matches }) => {
 
     return (
-        <div className="displayCards">
+        <div id="scrollbar1" className="displayCards">
             {matches.matches.map((match: Match) => (
                     <div className="matchesCard w-full p-3">
                         <div className="cardHeader">

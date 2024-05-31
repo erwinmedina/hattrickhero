@@ -2,18 +2,12 @@
     display: flex;
     margin: 0 auto;
 }
-table {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 450px;
-}
 
 .standingsTableContainer {
     padding: 0 0 20px 0;
     margin: 20px 0 0 0;
     height: 90vh;
-    width: 50%;
+    width: 40%;
 }
 .standingsTableContainer h1 {
     margin: 0 auto;
@@ -22,13 +16,14 @@ table {
 }
 .standingsTable {
     width: 500px;
-    height: 85%;
+    height: 80%;
     padding: 10px;
     text-align: center;
     border-radius: 15px;
     background: white;
     margin: 10px auto;
-    overflow-y: auto;
+    overflow-y: auto;   
+    filter: drop-shadow(5px 5px 5px black)
 }
 .standingsTable thead {
     background: white;
@@ -41,6 +36,7 @@ table {
     margin: 5px auto;
     border-radius: 15px;
     align-items: center;
+    filter: drop-shadow(5px 5px 5px black)
 }
 
 .standingsSeason {
@@ -50,16 +46,6 @@ table {
 .standingsSeason select {
     text-align: center;
 }
-.winners {
-    width: 500px;
-    height: 200px;
-    background: white;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    margin: 20px auto;
-
-}
 .topScorers {
     width: 500px;
     height: 200px;
@@ -68,5 +54,7 @@ table {
     display: flex;
     align-items: center;
     margin: 20px auto;
-
+}
+.rightHandStandings {
+    width: 60%;
 }
