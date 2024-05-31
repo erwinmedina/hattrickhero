@@ -7,6 +7,8 @@ table {
 
 .standingsTableContainer {
     padding: 0 0 20px 0;
+    margin: 20px 0 0 0;
+    height: 90vh;
 }
 .standingsTableContainer h1 {
     margin: 0 auto;
@@ -15,19 +17,31 @@ table {
 }
 .standingsTable {
     width: 500px;
+    height: 85%;
     padding: 10px;
     text-align: center;
     border-radius: 15px;
     background: white;
     margin: 10px auto;
+    overflow-y: auto;
 }
 .standingsTable thead {
     background: white;
 }
-.compName h1 {
-    background: white;
+
+.compName {
     width: 500px;
+    display: flex;
+    background: white;
     margin: 5px auto;
-    border-radius: 10px;
-    border: 1px solid gray;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.standingsSeason {
+    width: 150px;
+    text-align: center;
+}
+.standingsSeason select {
+    text-align: center;
 }

@@ -24,7 +24,7 @@ interface Position {
 const StandingsPage = async () => {
     let standings = [];
 
-    const res = await fetch('https://api.football-data.org/v4/competitions/PL/standings', {
+    const res = await fetch('https://api.football-data.org/v4/competitions/PL/standings?season=2023', {
         method: "GET",
         headers: {
             'X-Auth-Token': `${process.env.APIFootballKey}`
@@ -39,10 +39,20 @@ const StandingsPage = async () => {
     return (
         <>
             <Navbar/>
-            <MainButtons/>
+            {/* <MainButtons/> */}
             <div className="standingsTableContainer overflow-x-auto">
                 <div className="compName">
                     <h1>{standings.competition.name}</h1>
+                    <form className="standingsSeason max-w-sm mx-auto m-5">
+                        <select id="season" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option key={2024} value={2024}>Season 2024</option>
+                            <option key={2023} value={2024}>Season 2023</option>
+                            <option key={2022} value={2024}>Season 2022</option>
+                            <option key={2021} value={2024}>Season 2021</option>
+                            <option key={2020} value={2024}>Season 2020</option>
+                            <option key={2019} value={2024}>Season 2019</option>
+                        </select>
+                     </form>
                 </div>
                 <table className="standingsTable table border-separate border border-slate-500 h-3/6">
                     <thead>

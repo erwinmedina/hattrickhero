@@ -9,7 +9,7 @@ export default async function Home() {
   return (
     <main className="main">
       <Navbar/>
-      <MainButtons/>
+      {/* <MainButtons/> */}
     </main>
   );
 }

@@ -8,7 +8,7 @@ import "./page.css";
 const matchesPage = async () => {
     let matches = [];
 
-    const res = await fetch('https://api.football-data.org/v4/competitions/PL/matches?matchday=31', {
+    const res = await fetch('https://api.football-data.org/v4/competitions/PL/matches?matchday=31&season=2021', {
         method: "GET",
         headers: {
             'X-Auth-Token': `${process.env.APIFootballKey}`
@@ -23,7 +23,7 @@ const matchesPage = async () => {
   return (
     <div className="matchPage">
         <Navbar/>
-        <MainButtons/>
+        {/* <MainButtons/> */}
         <MatchdaySelector/>
         <MatchesCard matches={matches}/>
     </div >

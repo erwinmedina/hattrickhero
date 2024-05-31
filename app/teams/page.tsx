@@ -37,7 +37,7 @@ const TeamsPage = async () => {
   return (
     <div className="teamsPage">    
         <Navbar/>
-        <MainButtons/>
+        {/* <MainButtons/> */}
         <TeamSelector teams={teams}/>
         <MatchesCard matches={teamMatches}/>
     </div>
