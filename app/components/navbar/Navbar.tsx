@@ -21,7 +21,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className="navbar-center">
-            <Link href="/" className="btn btn-ghost text-xl">Hat Trick Hero</Link>
+            <Link href="/" id="HTH" className="btn btn-ghost text-xl">Hat Trick Hero</Link>
         </div>
         {/* <div className="navbar-end">
             <button className="btn btn-ghost btn-circle">
